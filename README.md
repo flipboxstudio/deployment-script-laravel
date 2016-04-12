@@ -1,5 +1,4 @@
-Deployment Scripts Manual
-RUMA OACM, Polling, and OG
+Deployment Scripts Manual for Laravel on VM
 
 Written by Ace for Flipbox, 11 April 2016
 ace@flipbox.co.id
