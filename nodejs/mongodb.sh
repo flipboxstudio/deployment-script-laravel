@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 echo "uninstall existing mongo version"
 sudo service mongod stop

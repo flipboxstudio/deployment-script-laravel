@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 echo "installing deployd"
 sudo npm install deployd-cli -g

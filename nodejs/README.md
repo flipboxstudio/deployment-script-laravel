@@ -1,4 +1,4 @@
-Deployment Scripts Manual for NodeJS on Ubuntu Xenial
+Deployment Scripts Manual for NodeJS & Mongo deployment on Ubuntu Xenial
 
 Written by Aqid for [Flipbox](http://flipbox.co.id/) - 2017
 
@@ -29,9 +29,5 @@ As you already know what will happen, I, Flipbox, and every people on this world
 
 **HOW TO INSTALL:**
 
-- Open file "1-instalasi.sh". Edit "rootpass" variable as your soon-to-be MySQL root password. Save.
-- (Optional) If you want to clone another branch, open file "2-instal webapp.sh". Change "appbranch" value as described on it. Also, save.
-- Eventhough the file name is self-explanatory enough or in case you are unable to count numbers, here is the order to run the script:
-	- 1-instalasi.sh -> for installing and configuring required platforms and modules
-	- 2-instal webapp.sh -> cloning latest version of awesomewebapp to your web directory, setting up Apache, creating MySQL credential as needed, etc.
-- Run the file with root access by typing "sudo /path/to/Deployment\ Scripts/directory/scriptname.sh"
+- run `./install.sh` **or**
+- run files separately. please note that `process-app.sh` depends on `node-npm.sh`
